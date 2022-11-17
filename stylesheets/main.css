@@ -91,14 +91,22 @@ hr {
 .sub-title{
   margin: 20px 0;
 }
-#particles_about, 
-#particles_contact {
+
+.particles_section {
   position: absolute;
   z-index: -1;
   display: block; 
   width: 100%;
-  height: 100%;
 }
+
+#particles_about {
+  height: 137%;
+}
+
+#particles_contact {
+  height: 60%;
+}
+
 .hero__terminal {
   width: 100%;
   margin: 0 auto 3rem auto;
