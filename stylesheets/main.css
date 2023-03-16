@@ -348,11 +348,40 @@ a.toggler.off {
   .img-circle{
     width: 90%;
   }
+
+  #headerwrap {
+    min-height: 760px;
+  }
 }
 @media screen and (min-width: 768px) {
   .img-circle{
     width: 30%;
   }
+}
+
+#headerwrap-down-arrow {
+  margin-top: 15px; 
+  color: #6666a2;
+  position: relative; 
+  animation: bounce 0.8s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px); }
+
+  to {
+    transform: translateY(20px); 
+  } 
+}
+
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px); }
+
+  to {
+    transform: translateY(-15px); 
+  } 
 }
 
 
@@ -777,10 +806,13 @@ label{
 nav#social{
 	padding: 20px 0 15px 0;
 }
+.social-buttons {
+  padding-left: 0px
+}
 nav#social .fnav{ vertical-align: middle;}
 ul.social-buttons li{
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 nav#social p{
 	font-size: 12px;
