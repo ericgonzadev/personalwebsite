@@ -61,7 +61,7 @@ a:after {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 section{
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 hr {
     display: block;
@@ -804,7 +804,7 @@ label{
 
 /*===== FOOTER =====*/
 nav#social{
-	padding: 20px 0 15px 0;
+	padding: 15px 0 5px 0;
 }
 .social-buttons {
   padding-left: 0px
