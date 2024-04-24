@@ -325,7 +325,7 @@ a.toggler.off {
     background-size: cover;
 }
 #headerwrap h1 {
-	color: #4974a5;
+	color: dodgerblue;
 	font-size: 70px;
 	font-weight: 700;
 	margin-top: 45px;
@@ -361,7 +361,7 @@ a.toggler.off {
 
 #headerwrap-down-arrow {
   margin-top: 15px; 
-  color: #4974a5;
+  color: dodgerblue;
   position: relative; 
   animation: bounce 0.8s infinite alternate;
 }
