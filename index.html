@@ -2,23 +2,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Eric Gonzalez</title>
+  <title>Eric Gonzalez — Software Engineer</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/favicon.ico" />
 
   <!-- Meta Tags -->
   <meta charset="UTF-8">
-  <meta name="description" content="Eric Gonzalez Personal Website">
-  <meta name="author" content="Eric Gonzalez">  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="Eric Gonzalez is a software engineer based in Los Angeles with 5+ years of experience building web applications.">
+  <meta name="author" content="Eric Gonzalez">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Eric Gonzalez — Software Engineer">
+  <meta property="og:description" content="Software engineer based in Los Angeles with 5+ years of experience building web applications.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.eric-gonzalez.com">
+  <meta property="og:image" content="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/profile.jpeg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Eric Gonzalez — Software Engineer">
+  <meta name="twitter:description" content="Software engineer based in Los Angeles with 5+ years of experience building web applications.">
+  <meta name="twitter:image" content="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/profile.jpeg">
+
+  <!-- Preconnect to external origins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com" crossorigin>
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" media="all" href="stylesheets/main.css" data-turbolinks-track="true" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" media="all" href="stylesheets/main.css" />
 
   <!-- Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700&display=swap' rel='stylesheet' type='text/css'>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6LLB0L9G3"></script>
@@ -39,7 +60,7 @@
     })(window, document, "clarity", "script", "lwr94pqrrt");
   </script>
 </head>
-<body data-spy="scroll" data-offset="0" data-target="#theMenu">
+<body>
     <!-- ========== MENU ========== -->
   <nav class="menu" id="theMenu">
     <div class="menu-wrap">
@@ -49,29 +70,21 @@
       <a href="#work-experience" class="smoothScroll nav-link">Work Experience</a>
       <a href="#portfolio" class="smoothScroll nav-link">Portfolio</a>
       <a href="#contact" class="smoothScroll nav-link">Contact</a>
-      <a href="./resume.html" class="nav-link" target="_blank">Resume</a>
+      <a href="./resume.html" class="nav-link" target="_blank" rel="noopener noreferrer">Resume</a>
       <hr>
-      <a href="https://github.com/ericgonzadev/" target="_blank" class="nav-link"><i class="fa fa-github" style="font-size: 2em;"></i> Github</a>
-      <a href="https://www.linkedin.com/in/eric-gonzalez-/" target="_blank" class="nav-link"><i class="fa fa-linkedin" style="font-size: 2em;"></i> LinkedIn</a>
+      <a href="https://github.com/ericgonzadev/" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="fa fa-github" style="font-size: 2em;"></i> Github</a>
+      <a href="https://www.linkedin.com/in/eric-gonzalez-/" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="fa fa-linkedin" style="font-size: 2em;"></i> LinkedIn</a>
       <hr>
-      <!-- TODO -->
-      <!-- <a href="https://github.com/ericgonzadev/Personal-Website" class="nav-link" target="_blank">Source Code</a> -->
       <div id="theme-toggle">
         <h5 >Toggle Dark/Light Mode </h5>
         <a class="toggler">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
       </div>
-      <!-- <div id="menu-social">
-        <a href="https://github.com/ericgonzadev/" target="_blank"><i class="fa fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/eric-gonzalez-/" target="_blank"><i class="fa fa-linkedin"></i></a>
-        <a href="https://www.facebook.com/egonzilla" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a href="https://twitter.com/e_gonzilla" target="_blank"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.instagram.com/e_gonzilla" target="_blank"><i class="fa fa-instagram"></i></a>
-      </div> -->
     </div>
-    <div id="menuToggle"><i class="fa fa-reorder"></i></div>
+    <div id="menuToggle"><i class="fa fa-bars"></i></div>
   </nav>
 
 
+  <main>
   <!-- ========== HEADER SECTION ========== -->
   <section id="home">
     <div id="headerwrap">
@@ -79,9 +92,9 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h1>Eric Gonzalez</h1><br>
-            <a href="#about" class="smoothScroll"><img class="img-circle" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/profile.jpeg" alt="Profile" /></a>
+            <a href="#about" class="smoothScroll"><img class="img-circle rounded-circle" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/profile.jpeg" alt="Eric Gonzalez, Software Engineer" /></a>
             <br>
-            <a id="headerwrap-down-arrow" href="#about" class="fa fa-5x fa-arrow-circle-down smoothScroll"></a>
+            <a id="headerwrap-down-arrow" href="#about" class="fa fa-5x fa-arrow-circle-down smoothScroll" aria-label="Scroll to About section"></a>
           </div>
         </div>
       </div>
@@ -96,24 +109,22 @@
       <div class="row">
         <h2>ABOUT ME</h2>
         <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
-        <div class="col-lg-10 col-lg-offset-1">
+        <div class="col-lg-10 offset-lg-1">
           <h3 class="sub-title">Myself</h3>
-          <p class="align-left">My curiosity and interest in technology led me into the world of programming and software development. I'm now a software engineer based in Los Angeles that has been working in the industry for 5+ years. I thrive in dynamic environments that foster continuous learning and value my ability to contribute significantly to projects. My self-discipline and persistence enable me to effectively plan and execute projects from start to finish. I take pride in my ability to tackle challenges head-on and deliver high-quality results. I invite you to review my <a href="./resume.html" target="_blank">resume for further details</a>.</p>
+          <p class="align-left">My curiosity and interest in technology led me into the world of programming and software development. I'm now a software engineer based in Los Angeles that has been working in the industry for 5+ years. I thrive in dynamic environments that foster continuous learning and value my ability to contribute significantly to projects. My self-discipline and persistence enable me to effectively plan and execute projects from start to finish. I take pride in my ability to tackle challenges head-on and deliver high-quality results. I invite you to review my <a href="./resume.html" target="_blank" rel="noopener noreferrer">resume for further details</a>.</p>
 
           <h3 class="sub-title">Development Experience</h3>
-          <img class="tech-logo" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/tech-logo-1.jpg" />
-          <img class="tech-logo" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/tech-logo-2.jpg" />
-          <img class="tech-logo" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/tech-logo-3.jpg" />
-          <img class="tech-logo" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/tech-logo-4.jpg" />
-          <img class="tech-logo" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/tech-logo-5.jpg" />
+          <img class="tech-logo" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/tech-logo-1.jpg" alt="Technology logo" loading="lazy" />
+          <img class="tech-logo" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/tech-logo-2.jpg" alt="Technology logo" loading="lazy" />
+          <img class="tech-logo" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/tech-logo-3.jpg" alt="Technology logo" loading="lazy" />
+          <img class="tech-logo" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/tech-logo-4.jpg" alt="Technology logo" loading="lazy" />
+          <img class="tech-logo" src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/tech-logo-5.jpg" alt="Technology logo" loading="lazy" />
           <div class="hero__terminal">
             <pre>
               <code class="shell-session demo"><span class="term_snip">eric_dev ~ $ </span></code>
             </pre>
           </div>
 
-          <!-- <h3 class="sub-title">Interests</h3>
-          <p class="align-left">My hobbies include going to concerts, watching and playing sports (primarily soccer and basketball), and reading up on anything tech. On my free time you&#39;ll probably find me investing, playing some video games, listening to indie music, or taking a nap.</p> -->
         </div>                
       </div>
     </div>
@@ -130,185 +141,157 @@
             <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
 
             <div class="work-experience-entry">
-              <h3 class="work-experience-title"><a href="https://www.qualialife.com" target="_blank">Qualia Life
-                <span class="work-experience-link">(qualialife.com)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
-                <h4 class="work-experience-position col-sm-6">Full Stack Engineer</h4>
-                <h4 class="work-experience-date col-sm-6">Sept, 2025 - Current</h4>
-              <ul>
-                <li>
-                  <div class="work-experience-desc">
-                    <figure>
-                      <a href="https://www.qualialife.com" target="_blank"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/qualialife-thumbnail.jpg" class="img-responsive" alt="Qualia Life"></a>
-                    </figure>
-                    <div>
-                      <ul class="work-exprience-points">
-                        <li>Design, develop, and maintain web applications using Ruby on Rails and Postgres</li>
-                        <li>Collaborate with product and design teams to implement user-facing features using
-                        HTML/HAML, ERB, CSS/SCSS, and JavaScript/CoffeeScript</li>
-                        <li>Collaborate in the implementation and performance optimization of front-end designs,
-                        including graphic optimizations</li>
-                        <li>Conduct thorough testing and debugging to resolve issues promptly</li>
-                        <li>Assist in debugging and resolving application issues</li>
-                        <li>Collaborate with the development team in all aspects of the application development lifecycle</li>
-                        <li>Participate in code reviews and contribute to maintaining clean, efficient code alongside the
-                        development team</li>
-                        <li>Provide ongoing support, optimization, and maintenance for live systems</li>
-                        <li>Recommend documentation improvements and software development process standards</li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
+              <div class="work-experience-header">
+                <div class="work-experience-info">
+                  <h3 class="work-experience-title"><a href="https://www.qualialife.com" target="_blank" rel="noopener noreferrer">Qualia Life
+                    <span class="work-experience-link">(qualialife.com)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
+                  <h4 class="work-experience-position">Full Stack Engineer</h4>
+                  <h4 class="work-experience-date">Sept, 2025 - Current</h4>
+                </div>
+                <figure class="work-experience-img">
+                  <a href="https://www.qualialife.com" target="_blank" rel="noopener noreferrer"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/qualialife-thumbnail.jpg" class="img-fluid" loading="lazy" alt="Qualia Life"></a>
+                </figure>
+              </div>
+              <ul class="work-exprience-points">
+                <li>Design, develop, and maintain web applications using Ruby on Rails and Postgres</li>
+                <li>Collaborate with product and design teams to implement user-facing features using
+                HTML/HAML, ERB, CSS/SCSS, and JavaScript/CoffeeScript</li>
+                <li>Collaborate in the implementation and performance optimization of front-end designs,
+                including graphic optimizations</li>
+                <li>Conduct thorough testing and debugging to resolve issues promptly</li>
+                <li>Assist in debugging and resolving application issues</li>
+                <li>Collaborate with the development team in all aspects of the application development lifecycle</li>
+                <li>Participate in code reviews and contribute to maintaining clean, efficient code alongside the
+                development team</li>
+                <li>Provide ongoing support, optimization, and maintenance for live systems</li>
+                <li>Recommend documentation improvements and software development process standards</li>
               </ul>
             </div>
             
             <div class="work-experience-entry">
-              <h3 class="work-experience-title"><a href="https://www.lafilm.edu" target="_blank">The Los Angeles Film School 
-                <span class="work-experience-link">(lafilm.edu)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
-                <h4 class="work-experience-position col-sm-6">Software Developer</h4> 
-                <h4 class="work-experience-date col-sm-6">Dec, 2023 - May, 2025</h4>
-              <ul>
-                <li>
-                  <div class="work-experience-desc">
-                    <figure>
-                      <a href="https://www.lafilm.edu" target="_blank"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/lafilm-thumbnail.jpg" class="img-responsive" alt="The Los Angeles Film School"></a>
-                    </figure>
-                    <div>
-                      <ul class="work-exprience-points">
-                        <li>Contributed to building out the new 2.0 student application portal, enhancing user experience</li>
-                        <li>Engineered and implemented AWS solutions, including Lambda functions, to successfully back up and migrate over millions of records, improving data integrity and accessibility</li>
-                        <li>Led continuous integration efforts using Gearset, resulting in reduction of deployment time and quicker builds</li>
-                        <li>Redesigned and optimized LAFILM's course schedule catalog and course schedule sites</li>
-                        <li>Collaborated with cross-functional teams to gather requirements, design solutions, and implement critical software solutions</li>
-                        <li>Conducted comprehensive testing protocols to ensure stability and functionality across all LAFILM platforms</li>
-                        <li>Efficiently diagnosed and resolved critical bugs and issues throughout LAFILM's digital ecosystem</li>
-                        <li>Actively participated in daily stand-ups and code reviews, promoting adherence to coding standards and best practices</li>  
-                      </ul>
-                    </div>
-                  </div>
-                </li>
+              <div class="work-experience-header">
+                <div class="work-experience-info">
+                  <h3 class="work-experience-title"><a href="https://www.lafilm.edu" target="_blank" rel="noopener noreferrer">The Los Angeles Film School
+                    <span class="work-experience-link">(lafilm.edu)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
+                  <h4 class="work-experience-position">Software Developer</h4>
+                  <h4 class="work-experience-date">Dec, 2023 - May, 2025</h4>
+                </div>
+                <figure class="work-experience-img">
+                  <a href="https://www.lafilm.edu" target="_blank" rel="noopener noreferrer"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/lafilm-thumbnail.jpg" class="img-fluid" loading="lazy" alt="The Los Angeles Film School"></a>
+                </figure>
+              </div>
+              <ul class="work-exprience-points">
+                <li>Contributed to building out the new 2.0 student application portal, enhancing user experience</li>
+                <li>Engineered and implemented AWS solutions, including Lambda functions, to successfully back up and migrate over millions of records, improving data integrity and accessibility</li>
+                <li>Led continuous integration efforts using Gearset, resulting in reduction of deployment time and quicker builds</li>
+                <li>Redesigned and optimized LAFILM's course schedule catalog and course schedule sites</li>
+                <li>Collaborated with cross-functional teams to gather requirements, design solutions, and implement critical software solutions</li>
+                <li>Conducted comprehensive testing protocols to ensure stability and functionality across all LAFILM platforms</li>
+                <li>Efficiently diagnosed and resolved critical bugs and issues throughout LAFILM's digital ecosystem</li>
+                <li>Actively participated in daily stand-ups and code reviews, promoting adherence to coding standards and best practices</li>
               </ul>
             </div>
           
             <div class="work-experience-entry">
-              <h3 class="work-experience-title"><a href="https://www.extendview.com" target="_blank">Extend View 
-                <span class="work-experience-link">(extendview.com)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
-                <h4 class="work-experience-position col-sm-6">Software Engineer / Tech Lead</h4> 
-                <h4 class="work-experience-date col-sm-6">May, 2018 - Dec, 2023</h4>
-              <ul>
-                <li>
-                  <div class="work-experience-desc">
-                    <figure>
-                      <a href="https://www.extendview.com" target="_blank"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/extendview-thumbnail.jpg" class="img-responsive" alt="Extend View"></a>
-                    </figure>
-                    <div>
-                      <ul class="work-exprience-points">
-                          <li>Built out the company&#39;s web application by adding and improving features and functionality</li>   
-                          <li>Brought mockups and PSD designs to life. Extensively worked on the UI/UX around the web application</li>   
-                          <li>Maintained the server and any dev ops operations for optimal performance</li>   
-                          <li>Created in-house api&#39;s to communicate with our mobile app</li>   
-                          <li>Integrated 3rd party api&#39;s and services to work with our codebase (Stripe | AWS | C3.js Chart Library | Google Services | etc)</li> 
-                          <li>Integrated Stripe payment service to our enviroment for subscription based memberships within our website and mobile application</li>     
-                          <li>Set up automatic testing integrations to run any time there was changes or updates pushed to the codebase</li>   
-                          <li>Minor mobile development on our IOS app codebase to implement small updates</li>   
-                      </ul>
-                    </div>
-                  </div>
-                </li>
+              <div class="work-experience-header">
+                <div class="work-experience-info">
+                  <h3 class="work-experience-title"><a href="https://www.extendview.com" target="_blank" rel="noopener noreferrer">Extend View
+                    <span class="work-experience-link">(extendview.com)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
+                  <h4 class="work-experience-position">Software Engineer / Tech Lead</h4>
+                  <h4 class="work-experience-date">May, 2018 - Dec, 2023</h4>
+                </div>
+                <figure class="work-experience-img">
+                  <a href="https://www.extendview.com" target="_blank" rel="noopener noreferrer"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/extendview-thumbnail.jpg" class="img-fluid" loading="lazy" alt="Extend View"></a>
+                </figure>
+              </div>
+              <ul class="work-exprience-points">
+                <li>Built out the company&#39;s web application by adding and improving features and functionality</li>
+                <li>Brought mockups and PSD designs to life. Extensively worked on the UI/UX around the web application</li>
+                <li>Maintained the server and any dev ops operations for optimal performance</li>
+                <li>Created in-house api&#39;s to communicate with our mobile app</li>
+                <li>Integrated 3rd party api&#39;s and services to work with our codebase (Stripe | AWS | C3.js Chart Library | Google Services | etc)</li>
+                <li>Integrated Stripe payment service to our enviroment for subscription based memberships within our website and mobile application</li>
+                <li>Set up automatic testing integrations to run any time there was changes or updates pushed to the codebase</li>
+                <li>Minor mobile development on our IOS app codebase to implement small updates</li>
               </ul>
             </div>
 
             <div class="work-experience-entry">
-              <h3 class="work-experience-title"><a href="https://www.crunchbase.com/organization/mentormint" target="_blank">Mentor Mint 
-                <span class="work-experience-link">(mentormint.com)</span></span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
-                <h4 class="work-experience-position col-sm-6">Software Engineer Intern</h4> 
-                <h4 class="work-experience-date col-sm-6">Nov, 2017 - Apr, 2018</h4>
-              <ul>
-                <li>
-                  <div class="work-experience-desc">
-                    <figure>
-                      <a href="https://www.crunchbase.com/organization/mentormint" target="_blank"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/mentormint-thumbnail.jpg" class="img-responsive" alt="Mentor Mint"></a>
-                    </figure>
-                    <div>
-                      <ul class="work-exprience-points">
-                          <li>Added new features to the platform</li>   
-                          <li>Detected and found solutions for any bugs encountered</li>   
-                          <li>Worked on the Rails application where the current codebase would be migrated to</li>   
-                      </ul>
-                    </div>
-                  </div>
-                </li>
+              <div class="work-experience-header">
+                <div class="work-experience-info">
+                  <h3 class="work-experience-title"><a href="https://www.crunchbase.com/organization/mentormint" target="_blank" rel="noopener noreferrer">Mentor Mint
+                    <span class="work-experience-link">(mentormint.com)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
+                  <h4 class="work-experience-position">Software Engineer Intern</h4>
+                  <h4 class="work-experience-date">Nov, 2017 - Apr, 2018</h4>
+                </div>
+                <figure class="work-experience-img">
+                  <a href="https://www.crunchbase.com/organization/mentormint" target="_blank" rel="noopener noreferrer"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/mentormint-thumbnail.jpg" class="img-fluid" loading="lazy" alt="Mentor Mint"></a>
+                </figure>
+              </div>
+              <ul class="work-exprience-points">
+                <li>Added new features to the platform</li>
+                <li>Detected and found solutions for any bugs encountered</li>
+                <li>Worked on the Rails application where the current codebase would be migrated to</li>
               </ul>
             </div>  
 
             <div class="work-experience-entry">
-              <h3 class="work-experience-title"><a href="http://www.trumaker.com/" target="_blank">Trumaker 
-                <span class="work-experience-link">(trumaker.com)&nbsp;&nbsp;&nbsp;&nbsp;</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
-                <h4 class="work-experience-position col-sm-6">Quality Assurance Engineer Intern</h4> 
-                <h4 class="work-experience-date col-sm-6">Jun, 2016 – Nov, 2016</h4>
-              <ul>
-                <li>
-                  <div class="work-experience-desc">
-                    <figure>
-                      <a href="http://www.trumaker.com" target="_blank"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/trumaker-thumbnail.jpg" class="img-responsive" alt="Trumaker"></a>
-                    </figure>
-                    <div>
-                      <ul class="work-exprience-points">
-                          <li>Thoroughly tested and approved new features and designs on all Trumaker platforms</li>   
-                          <li> Detected and documented bugs and errors on all Trumaker platforms</li>   
-                          <li> Ran weekly regression test to verify and ensure all Trumaker platforms were running as expected</li>   
-                          <li> Communicated with multiple teams to discuss and document new features to implement or bugs and errors to fix</li>   
-                          <li> Helped multiple teams with customer and self technical issues</li>   
-                      </ul>
-                    </div>
-                  </div>
-                </li>
+              <div class="work-experience-header">
+                <div class="work-experience-info">
+                  <h3 class="work-experience-title"><a href="http://www.trumaker.com/" target="_blank" rel="noopener noreferrer">Trumaker
+                    <span class="work-experience-link">(trumaker.com)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
+                  <h4 class="work-experience-position">Quality Assurance Engineer Intern</h4>
+                  <h4 class="work-experience-date">Jun, 2016 – Nov, 2016</h4>
+                </div>
+                <figure class="work-experience-img">
+                  <a href="http://www.trumaker.com" target="_blank" rel="noopener noreferrer"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/trumaker-thumbnail.jpg" class="img-fluid" loading="lazy" alt="Trumaker"></a>
+                </figure>
+              </div>
+              <ul class="work-exprience-points">
+                <li>Thoroughly tested and approved new features and designs on all Trumaker platforms</li>
+                <li>Detected and documented bugs and errors on all Trumaker platforms</li>
+                <li>Ran weekly regression test to verify and ensure all Trumaker platforms were running as expected</li>
+                <li>Communicated with multiple teams to discuss and document new features to implement or bugs and errors to fix</li>
+                <li>Helped multiple teams with customer and self technical issues</li>
               </ul>
             </div>  
 
             <div class="work-experience-entry">
-              <h3 class="work-experience-title"><a href="https://www.facebook.com/TrueArtists/" target="_blank">TrueArtists 
-                <span class="work-experience-link">(trueartists.com)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
-                <h4 class="work-experience-position col-sm-6">Software Engineer Intern</h4> 
-                <h4 class="work-experience-date col-sm-6">Mar, 2016 - Jun, 2016</h4>
-              <ul>
-                <li>
-                  <div class="work-experience-desc">
-                    <figure>
-                      <a href="https://www.facebook.com/TrueArtists/" target="_blank"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/trueartists-thumbnail.jpg" class="img-responsive" alt="TrueArtists"></a>
-                    </figure>
-                    <div>
-                      <ul class="work-exprience-points">
-                          <li>Contributed to the code base to improve the sites UI and UX</li>   
-                          <li> Implemented and tested various new features</li>   
-                          <li> Detected and documented bugs on the platform</li>   
-                          <li> Found and implemented solutions for bugs and errors   </li>   
-                      </ul>
-                    </div>
-                  </div>
-                </li>
+              <div class="work-experience-header">
+                <div class="work-experience-info">
+                  <h3 class="work-experience-title"><a href="https://www.facebook.com/TrueArtists/" target="_blank" rel="noopener noreferrer">TrueArtists
+                    <span class="work-experience-link">(trueartists.com)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
+                  <h4 class="work-experience-position">Software Engineer Intern</h4>
+                  <h4 class="work-experience-date">Mar, 2016 - Jun, 2016</h4>
+                </div>
+                <figure class="work-experience-img">
+                  <a href="https://www.facebook.com/TrueArtists/" target="_blank" rel="noopener noreferrer"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/trueartists-thumbnail.jpg" class="img-fluid" loading="lazy" alt="TrueArtists"></a>
+                </figure>
+              </div>
+              <ul class="work-exprience-points">
+                <li>Contributed to the code base to improve the sites UI and UX</li>
+                <li>Implemented and tested various new features</li>
+                <li>Detected and documented bugs on the platform</li>
+                <li>Found and implemented solutions for bugs and errors</li>
               </ul>
             </div>  
 
             <div class="work-experience-entry">
-              <h3 class="work-experience-title"><a href="https://sfsu.edu" target="_blank">San Francisco State University 
-                <span class="work-experience-link">(sfsu.edu)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
-                <h4 class="work-experience-position col-sm-6">Computer Science Teacher Assistant</h4> 
-                <h4 class="work-experience-date col-sm-6">Aug, 2015 - Dec, 2015</h4>
-              <ul>
-                <li>
-                  <div class="work-experience-desc">
-                    <figure>
-                      <a href="https://sfsu.edu" target="_blank"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/sfsu-thumbnail.jpg" class="img-responsive" alt="San Francisco State University"></a>
-                    </figure>
-                    <div>
-                      <ul class="work-exprience-points">
-                          <li>Revised and graded programming assignments for students</li>   
-                          <li> Tutored students individually when they were having trouble with the course material</li>   
-                          <li> Held group tutoring sessions to help students with their programming assignments </li>   
-                      </ul>
-                    </div>
-                  </div>
-                </li>
+              <div class="work-experience-header">
+                <div class="work-experience-info">
+                  <h3 class="work-experience-title"><a href="https://sfsu.edu" target="_blank" rel="noopener noreferrer">San Francisco State University
+                    <span class="work-experience-link">(sfsu.edu)</span><button class="btn btn-danger btn-lg">Visit Website</button></a></h3>
+                  <h4 class="work-experience-position">Computer Science Teacher Assistant</h4>
+                  <h4 class="work-experience-date">Aug, 2015 - Dec, 2015</h4>
+                </div>
+                <figure class="work-experience-img">
+                  <a href="https://sfsu.edu" target="_blank" rel="noopener noreferrer"><img src="https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/sfsu-thumbnail.jpg" class="img-fluid" loading="lazy" alt="San Francisco State University"></a>
+                </figure>
+              </div>
+              <ul class="work-exprience-points">
+                <li>Revised and graded programming assignments for students</li>
+                <li>Tutored students individually when they were having trouble with the course material</li>
+                <li>Held group tutoring sessions to help students with their programming assignments</li>
               </ul>
             </div>     
           </div>
@@ -325,60 +308,56 @@
       <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
       <div class="row">
         <h3>Client Work</h3>
-        <hr style="width: 300px; margin-left: auto; margin-right: auto;">
         <div class="col-md-4">
           <article class="article-post">
-            <a href="https://www.gonzaelectric.com/" target="_blank">
-              <div class="article-image has-overlay" style="background-image: url(https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/gonzaelectric.jpeg)">
+            <a href="https://www.gonzaelectric.com/" target="_blank" rel="noopener noreferrer">
+              <div class="article-image has-overlay portfolio-gonzaelectric">
                 <span class="featured-tag">Client Work</span>
               </div>
             </a>
             <figure>
               <figcaption>
-                <h2 class="project-name">Gonza Electric&#39;s Business Website</h2>
-                <!-- <h4 class="project-tools">(Ruby on Rails)</h4> -->
+                <h3 class="project-name">Gonza Electric&#39;s Business Website</h3>
                 <p>Business website for an electric contractor&#39;s company called Gonza Electric. It showcases their services, bio, testimonials, and contact information. This site is search engine optimized to appear on Google and Bing search results with keyword &quot;Electrician&quot; in Los Angeles.</p>
               </figcaption>
             </figure>
-                <a target="_blank" class="btn btn-danger btn-lg" href="https://www.gonzaelectric.com/">Visit Website</a>
+                <a target="_blank" rel="noopener noreferrer" class="btn btn-danger btn-lg" href="https://www.gonzaelectric.com/">Visit Website</a>
 
               
           </article>
         </div>
         <div class="col-md-4">
           <article class="article-post">
-            <a href="http://www.ryan-cho.com/" target="_blank">
-              <div class="article-image has-overlay" style="background-image: url(https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/Ryan_Cho.png)">
+            <a href="http://www.ryan-cho.com/" target="_blank" rel="noopener noreferrer">
+              <div class="article-image has-overlay portfolio-ryancho">
                 <span class="featured-tag">Client Work</span>
               </div>
             </a>
             <figure>
               <figcaption>
-                <h2 class="project-name">Ryan Cho&#39;s Personal Website</h2>
-                <!-- <h4 class="project-tools">(Ruby on Rails / Vimeo, YT API)</h4> -->
+                <h3 class="project-name">Ryan Cho&#39;s Personal Website</h3>
                 <p>This is the personal website of film maker Ryan Cho. It showcases his bio, work experience, projects, and contact information.</p>
               </figcaption>
             </figure>
-                <a target="_blank" class="btn btn-danger btn-lg" href="https://www.ryan-cho.com/">Visit Website</a>
+                <a target="_blank" rel="noopener noreferrer" class="btn btn-danger btn-lg" href="https://www.ryan-cho.com/">Visit Website</a>
 
               
           </article>
         </div>
         <div class="col-md-4">
           <article class="article-post">
-            <a href="https://ericgonzadev.github.io/maximospizza/" target="_blank">
-              <div class="article-image has-overlay" style="background-image: url(https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/maximos_pizza.jpeg)">
+            <a href="https://ericgonzadev.github.io/maximospizza/" target="_blank" rel="noopener noreferrer">
+              <div class="article-image has-overlay portfolio-maximos">
                 <span class="featured-tag">Client Work</span>
               </div>
             </a>
             <figure>
               <figcaption>
-                <h2 class="project-name">Maximo&#39;s Pizza Business Website</h2>
-                <!-- <h4 class="project-tools">(Ruby on Rails)</h4> -->
+                <h3 class="project-name">Maximo&#39;s Pizza Business Website</h3>
                 <p>This is the business website for a pizzeria called Maximo&#39;s Pizza. It showcases their menu, hours, contact information, and location. This site is search engine optimized to appear on Google and Bing search results with keyword &quot;Pizza&quot; in South Los Angeles.</p>
               </figcaption>
             </figure>
-                <a target="_blank" class="btn btn-danger btn-lg" href="https://ericgonzadev.github.io/maximospizza/">Visit Website</a>
+                <a target="_blank" rel="noopener noreferrer" class="btn btn-danger btn-lg" href="https://ericgonzadev.github.io/maximospizza/">Visit Website</a>
 
               
           </article>
@@ -387,133 +366,23 @@
       <div class="row">
         <div class="col-md-4">
           <article class="article-post">
-            <a href="https://ericgonzadev.github.io/bejuloo/" target="_blank">
-              <div class="article-image has-overlay" style="background-image: url(https://eric-gonzalez-personal-website.s3.us-west-1.amazonaws.com/images/bejuloo.jpg)">
+            <a href="https://ericgonzadev.github.io/bejuloo/" target="_blank" rel="noopener noreferrer">
+              <div class="article-image has-overlay portfolio-bejuloo">
                 <span class="featured-tag">Client Work</span>
               </div>
             </a>
             <figure>
               <figcaption>
-                <h2 class="project-name">Beatrize Jude&#39;s Personal Website</h2>
-                <!-- <h4 class="project-tools">(Ruby on Rails / Vimeo, YT API)</h4> -->
+                <h3 class="project-name">Beatrize Jude&#39;s Personal Website</h3>
                 <p>This is the personal website of digital artist and content creator Beatrize Jude. It showcases her bio, art, projects, and contact information.</p>
               </figcaption>
             </figure>
-                <a target="_blank" class="btn btn-danger btn-lg" href="https://ericgonzadev.github.io/bejuloo/">Visit Website</a>
+                <a target="_blank" rel="noopener noreferrer" class="btn btn-danger btn-lg" href="https://ericgonzadev.github.io/bejuloo/">Visit Website</a>
 
               
           </article>
         </div>
       </div>
-      <!-- <div class="row" style="margin-top: 90px;">
-        <h3>Personal and Group Projects</h3>
-        <hr style="width: 300px; margin-left: auto; margin-right: auto;">
-            <div class="col-md-4">
-      <article class="article-post">
-        <a href="https://rails-eventor.herokuapp.com/" target="_blank">
-          <div class="article-image has-overlay" style="background-image: url(https://ericgonzalez1994uploads.s3.amazonaws.com/uploads/project/picture/4/eventor.jpg)">
-            <span class="featured-tag">Solo Project</span>
-          </div>
-        </a>
-        <figure>
-          <figcaption>
-            <h2 class="project-name">Eventor</h2>
-            <h4 class="project-tools">(Ruby on Rails / Geocoder)</h4>
-            <p>Eventor is an event manager web application built with the Ruby on Rails framework.  Once a user signs up, they can explore, create, and attend events. Eventor has geocoding features built into it. All users can also search events by name, zip code, city, and categories. From your user&#39;s profile page you can filter events by the ones you created or are attending. Users can also comment on events.</p>
-          </figcaption>
-        </figure>
-            <a target="_blank" class="btn btn-danger btn-lg" href="https://rails-eventor.herokuapp.com/">Visit Website</a>
-
-            <a target="_blank" class="btn btn-danger btn-lg" href="https://github.com/Twinpair/Eventor">Source Code</a>
-          
-      </article>
-    </div>
-    <div class="col-md-4">
-      <article class="article-post">
-        <a href="https://samurai-jack-voting-game.herokuapp.com" target="_blank">
-          <div class="article-image has-overlay" style="background-image: url(https://ericgonzalez1994uploads.s3.amazonaws.com/uploads/project/picture/12/SJVG.jpg)">
-            <span class="featured-tag">Solo Project</span>
-          </div>
-        </a>
-        <figure>
-          <figcaption>
-            <h2 class="project-name">Samurai Jack Voting Game </h2>
-            <h4 class="project-tools">(Ruby on Rails / Ajax)</h4>
-            <p>A voting game made with Ruby on Rails and Ajax. Cards are displayed side by side to each other, when a user votes on one, another two cards are displayed and ready to be voted on.  DISCLAIMER: I do not own any of these images. They are the property of Adult Swim and the creators of the Samurai Jack TV Series. I only intend to use them for fair use and not profit off them.</p>
-          </figcaption>
-        </figure>
-            <a target="_blank" class="btn btn-danger btn-lg" href="https://samurai-jack-voting-game.herokuapp.com">Visit Website</a>
-
-            <a target="_blank" class="btn btn-danger btn-lg" href="https://github.com/Twinpair/Samurai-Jack-Voting-Game">Source Code</a>
-          
-      </article>
-    </div>
-    <div class="col-md-4">
-      <article class="article-post">
-        <a href="https://acquaintion.herokuapp.com" target="_blank">
-          <div class="article-image has-overlay" style="background-image: url(https://ericgonzalez1994uploads.s3.amazonaws.com/uploads/project/picture/8/ACQUAINTION_ACQUAINTION_acquaintion.jpg)">
-            <span class="featured-tag">Solo Project</span>
-          </div>
-        </a>
-        <figure>
-          <figcaption>
-            <h2 class="project-name">Acquantion</h2>
-            <h4 class="project-tools">(Ruby on Rails)</h4>
-            <p>&quot;Follow and be followed&quot; Acquaintion is a basic Twitter clone built with the Ruby on Rails framework. It has many similar features such as allowing users to post content or images to their account. Users can also follow each other to see their content.
-
-</p>
-          </figcaption>
-        </figure>
-            <a target="_blank" class="btn btn-danger btn-lg" href="https://acquaintion.herokuapp.com">Visit Website</a>
-
-            <a target="_blank" class="btn btn-danger btn-lg" href="https://github.com/Twinpair/Acquaintion">Source Code</a>
-          
-      </article>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <article class="article-post">
-        <a href="https://rails-blogger-app.herokuapp.com/" target="_blank">
-          <div class="article-image has-overlay" style="background-image: url(https://ericgonzalez1994uploads.s3.amazonaws.com/uploads/project/picture/9/blogger.jpg)">
-            <span class="featured-tag">Solo Project</span>
-          </div>
-        </a>
-        <figure>
-          <figcaption>
-            <h2 class="project-name">Blogger Website </h2>
-            <h4 class="project-tools">(Ruby on Rails)</h4>
-            <p>A simple blog application where anyone can post, comment and read post. Users can also filter post by tag identifiers.</p>
-          </figcaption>
-        </figure>
-            <a target="_blank" class="btn btn-danger btn-lg" href="https://rails-blogger-app.herokuapp.com/">Visit Website</a>
-
-            <a target="_blank" class="btn btn-danger btn-lg" href="https://github.com/Twinpair/The-Odin-Project/tree/master/Rails%20Application%20-%20Blogger">Source Code</a>
-          
-      </article>
-    </div>
-    <div class="col-md-4">
-      <article class="article-post">
-        <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLalR2V3RlMUpOQ0k/view?usp=sharing&amp;resourcekey=0-3-myCxHwXDp2JYbfs_XXUQ" target="_blank">
-          <div class="article-image has-overlay" style="background-image: url(https://ericgonzalez1994uploads.s3.amazonaws.com/uploads/project/picture/17/lazarus.gif)">
-            <span class="featured-tag">Solo Project</span>
-          </div>
-        </a>
-        <figure>
-          <figcaption>
-            <h2 class="project-name">Lazarus Game</h2>
-            <h4 class="project-tools">(Java)</h4>
-            <p>A fun little game where the objective is to get the purple blob to the top to press the stop button before being squished by the boxes. The difficulty is that the boxes can overlap each other depending on the hierarchy of it&#39;s material (Carton, Wood, Stone, etc)</p>
-          </figcaption>
-        </figure>
-            <a target="_blank" class="btn btn-danger btn-lg" href="https://drive.google.com/file/d/0B-4Vah9LEYrLalR2V3RlMUpOQ0k/view?usp=sharing&amp;resourcekey=0-3-myCxHwXDp2JYbfs_XXUQ">Download</a>
-
-            <a target="_blank" class="btn btn-danger btn-lg" href="https://github.com/ericgonzadev/Lazarus-Game">Source Code</a>
-          
-      </article>
-    </div>
-
-      </div> -->
     </div>
   </section>
 
@@ -525,72 +394,35 @@
       <div class="row">
         <h2>CONTACT ME</h2>
         <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
-        <div class="col-lg-6 col-lg-offset-3">
-          <p>You can contact me through any of the methods listed below. You can <a href="./resume.html" target="_blank">click here to view my resume</a>.</p>
+        <div class="col-lg-6 offset-lg-3">
+          <p>You can contact me through any of the methods listed below. You can <a href="./resume.html" target="_blank" rel="noopener noreferrer">click here to view my resume</a>.</p>
           <p>Email: <a href="mailto:contact@eric-gonzalez.com">contact@eric-gonzalez.com</a></p>
 
           <nav id="social">
             <ul class="social-buttons">
-              <li><a title = "Github" href="https://github.com/ericgonzadev" target="_blank"><i class="fa fa-github" id = "githubcircle"></i></a></li>
-              <li><a title = "Linked In" href="https://www.linkedin.com/in/eric-gonzalez-" target="_blank"><i class="fa fa-linkedin" id = "linkedincircle"></i></a></li>
-              <!-- <li><a title = "Facebook" href="facebook.com" target="_blank"><i class="fa fa-facebook" id = "facebookcircle"></i></a></li>
-              <li><a title = "Instagram" href="instagram.com" target="_blank"><i class="fa fa-instagram" id = "instagramcircle"></i></a></li> -->
+              <li><a title="Github" aria-label="Github" href="https://github.com/ericgonzadev" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" id="githubcircle"></i></a></li>
+              <li><a title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/eric-gonzalez-" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin" id="linkedincircle"></i></a></li>
             </ul>
           </nav>
-          <!-- <p>You can also leave me a message here:</p>
-          <form class="new_contact" id="new_contact" action="/contacts" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0brcGQIOkPuHTLxztGZMZtMwLXh0Kru8n3G4f4NlNZMEB/TIyqIw59GizgUDBIkD/uuwTzoT6lmBhsvy4f91Xg==" />
-              
-
-                <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
-                    <label for="contact_name">Name</label> <span class="red_span">*</span>
-                    <input type="text" class="form-control" placeholder="Name" id="name" required="required" name="contact[name]" />
-                  </div>
-                </div>
-                <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
-                    <label for="contact_email">Email</label> <span class="red_span">*</span>
-                    <input type="email" class="form-control" placeholder="Email Address" id="email" required="required" name="contact[email]" />
-                  </div>
-                </div>
-                <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
-                    <label for="contact_message">Message</label> <span class="red_span">*</span>
-                    <textarea rows="5" class="form-control" placeholder="Message" id="message" required="required" name="contact[message]"></textarea>
-                  </div>
-                </div>
-                <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
-                     <label>Captcha <span class="red_span">*</span></label><br>
-                    <img src="/assets/ciaipiticihiai-000ac554019d6eaa5b626240e7e2b10c90f5375d22fbd0ebfd66c89130d4dc9d.jpg" alt="Ciaipiticihiai" /><br><br>
-                    <input type="text" class="form-control" placeholder="Enter the text shown in the image" id="captcha" required="required" name="contact[captcha]" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-group col-xs-12">
-                    <input type="submit" name="commit" value="Submit" class="btn btn-danger btn-lg" data-disable-with="Submit" />
-                  </div>
-                </div>
-            </form> -->
         </div>
       </div>
     </div>
   </section>
-
+  </main>
 
   <!-- ========== FOOTER ========== -->
-  <nav id="footer">
+  <footer id="footer">
     <div class="container">
-      <div class="pull-left fnav">
+      <div class="float-start fnav">
         <p>Copyright © Eric Gonzalez, All Rights Reserved</p>
       </div>
     </div>
-  </nav></body>
+  </footer>
 
 <!-- Javascript -->
-<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="javascript/main.js" type="text/javascript"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" type="text/javascript"></script>
 <script src="javascript/particles_config.js" type="text/javascript"></script>
 <script src="javascript/terminal_shell.js" type="text/javascript"></script>
+</body>
 </html>

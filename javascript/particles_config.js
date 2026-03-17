@@ -1,7 +1,8 @@
+var isMobile = window.matchMedia('(max-width: 768px)').matches;
 var config = {
   "particles": {
     "number": {
-      "value": 200,
+      "value": isMobile ? 40 : 80,
       "density": {
         "enable": true,
         "value_area": 1000
@@ -56,7 +57,7 @@ var config = {
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true
